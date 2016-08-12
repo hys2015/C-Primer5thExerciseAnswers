@@ -14,6 +14,5 @@ int exec12_22_main()
         std::cout << b_ptr.deref() << std::endl;
     }
 
-
     return 0;
 }
