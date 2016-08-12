@@ -29,6 +29,20 @@ void StrBlob::pop_back()
     check(0, "pop_back on empty StrBlob");
     data->pop_back();
 }
+
+StrBlobPtr StrBlob::begin()
+{
+    return StrBlobPtr(*this);
+}
+
+StrBlobPtr StrBlob::end()
+{
+    auto ret = StrBlobPtr(*this, data->size());
+    return ret;
+}
+
+
+
 // testing
 // main function
 int StrBlobTest()
