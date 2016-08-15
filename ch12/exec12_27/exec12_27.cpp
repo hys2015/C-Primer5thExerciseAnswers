@@ -34,11 +34,10 @@ MyQueryResult MyTextQuery::query(std::string &keyword)
 }
 
 MyQueryResult::MyQueryResult(std::shared_ptr<std::set<MyTextQuery::line_no>> p,
-    std::shared_ptr<std::map<MyTextQuery::line_no, std::string>> q)
-{
-    m_ptr = p;
-    m_map_ptr = q;
-}
+    std::shared_ptr<std::map<MyTextQuery::line_no, std::string>> q):
+    m_ptr(p),
+    m_map_ptr(q)
+{ }
 
 void MyQueryResult::print()
 {

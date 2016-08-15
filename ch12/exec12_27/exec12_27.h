@@ -17,6 +17,7 @@ public:
     MyQueryResult query(std::string& );
 private:
     std::map<std::string, std::set<line_no>> m_word_map; // word->line_no set map
+    //the following map is not necessary , vector is more proper.
     std::map<line_no, std::string> m_line_map; // line_no -> line content map
 
 };

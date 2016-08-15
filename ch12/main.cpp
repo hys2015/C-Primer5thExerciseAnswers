@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 
-#define MAIN_FUNC exec12_27_main()
+#define MAIN_FUNC RunQuery()
 
 extern int MAIN_FUNC;
 
