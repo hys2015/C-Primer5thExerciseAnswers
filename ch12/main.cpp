@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 
-#define MAIN_FUNC exec10_02_main()
+#define MAIN_FUNC exec10_13_main()
 
 extern int MAIN_FUNC;
 
