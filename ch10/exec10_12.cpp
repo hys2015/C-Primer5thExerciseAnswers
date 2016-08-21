@@ -3,15 +3,7 @@
 #include <string>
 #include <algorithm>
 
-class Sales_data{
-public:
-    Sales_data(const std::string &s) : bookNo(s){}
-    std::string isbn() const{
-        return bookNo;
-    }
-private:
-    std::string bookNo;
-};
+#include "Sales_data.h"
 
 bool compareIsbn(Sales_data &lhs, Sales_data &rhs)
 {
