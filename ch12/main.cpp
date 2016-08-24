@@ -1,5 +1,5 @@
 
-#define MAIN_FUNC exec10_37_main()
+#define MAIN_FUNC exec10_42_main()
 
 extern int MAIN_FUNC;
 

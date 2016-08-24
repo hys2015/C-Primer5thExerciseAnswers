@@ -10,7 +10,7 @@ int exec10_37_main()
     std::list<int> lst;
     /*for (auto it = vec.cbegin(); it < vec.cend(); it++) {
         lst.push_back(*it);
-    }*/
+    }*/ 
     std::copy(vec.crbegin() + 3, vec.crbegin() + 8, std::back_inserter(lst)); // 3rd to 7th elments :[3..8) equals (2, 7] in reverse.  
     for (auto n : lst) {
         std::cout << n << " ";
