@@ -4,7 +4,7 @@
 #include <fstream>
 #include <sstream>
 
-std::map<std::string, std::string> buildMap(std::ifstream &map_file)
+static std::map<std::string, std::string> buildMap(std::ifstream &map_file)
 {
     std::map<std::string, std::string> trans_map;
     std::string line;
@@ -12,14 +12,14 @@ std::map<std::string, std::string> buildMap(std::ifstream &map_file)
     while (map_file >> word && std::getline(map_file, line))
     {
         if (line.size() > 1)
-            trans_map[word] = line.substr(1);
+            trans_map[word] = line.substr(1); //specific
         else
             throw std::runtime_error("no rule for " + word);
     }
     return trans_map;
 }
 
-const std::string& transform(const std::string &s, const std::map<std::string, std::string> &map)
+static const std::string& transform(const std::string &s, const std::map<std::string, std::string> &map)
 {
     auto map_it = map.find(s);
     if (map_it != map.end())
@@ -31,7 +31,7 @@ const std::string& transform(const std::string &s, const std::map<std::string, s
     }
 }
 
-void word_transform(std::ifstream &map_file, std::ifstream &input)
+static void word_transform(std::ifstream &map_file, std::ifstream &input)
 {
     auto trans_map = buildMap(map_file);
     std::string text;
@@ -42,7 +42,7 @@ void word_transform(std::ifstream &map_file, std::ifstream &input)
         bool firstWord = true;
         while (iss >> word)
         {
-            if (firstWord)
+            if (firstWord)  //specific
                 firstWord = false;
             else
                 std::cout << " ";
@@ -54,8 +54,9 @@ void word_transform(std::ifstream &map_file, std::ifstream &input)
 
 int exec11_33_main()
 {
-    std::ifstream rule_file("E:\\GitHubForks\\c++Primer5th-demo\\ch11\\exec11_33\\map_rules.txt");
-    std::ifstream input_file("E:\\GitHubForks\\c++Primer5th-demo\\ch11\\exec11_33\\input.txt");
+	//D:\GitForks\CppPrimer5thExerciseAnswers\ch11\exec11_33\input.txt
+    std::ifstream rule_file("D:\\GitForks\\CppPrimer5thExerciseAnswers\\ch11\\exec11_33\\map_rules.txt");
+    std::ifstream input_file("D:\\GitForks\\CppPrimer5thExerciseAnswers\\ch11\\exec11_33\\input.txt");
     word_transform(rule_file, input_file);
     return 0;
 }
