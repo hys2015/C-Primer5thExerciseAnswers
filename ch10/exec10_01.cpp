@@ -3,7 +3,7 @@
 #include <vector>
 #include <iostream>
 
-int exec10_01_main()
+int main()
 {
     std::vector<int> vec;
     int in;

@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string>
 
-int exec12_20_main()
+int main()
 {
     StrBlob blob;
 

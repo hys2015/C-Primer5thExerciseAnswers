@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-int exec11_22_main()
+int main()
 {
     std::map<std::string, std::vector<int>> map;
     std::pair<std::map<std::string, std::vector<int>>::iterator, bool> pair = 

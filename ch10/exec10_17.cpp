@@ -5,7 +5,7 @@
 
 #include "Sales_data.h"
 
-int exec10_17_main()
+int main()
 {
     std::vector<Sales_data> vec;
     Sales_data s1("abcde"), s2("aaa"), s3("xyz");

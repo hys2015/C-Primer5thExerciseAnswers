@@ -73,7 +73,7 @@ std::shared_ptr<StrBlob> BlobQueryResult::get_file()
     return file;
 }
 
-int exec12_32_main()
+int main()
 {
     std::ifstream ifs;
     std::string path("E:\\GitHubForks\\c++Primer5th-demo\\ch12\\exec12_27\\exec12_27.txt");

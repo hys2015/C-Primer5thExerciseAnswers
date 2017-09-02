@@ -3,7 +3,7 @@
 #include <iostream>
 
 
-int exec11_03_main()
+int main()
 {
     std::string input;
     std::map<std::string, std::size_t> words;

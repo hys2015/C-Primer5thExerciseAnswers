@@ -81,7 +81,7 @@ static void test_word_count()
 	word_count_pro();
 }
 
-int exec11_38_main()
+int main()
 {
 	
 	//test_word_count();

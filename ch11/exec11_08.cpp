@@ -4,7 +4,7 @@
 #include <iostream>
 #include <algorithm>
 
-int exec11_08_main()
+int main()
 {
     std::map<std::string, std::size_t> word_count;
     std::vector<std::string> exclude({ "hello", "world", "Hi" });

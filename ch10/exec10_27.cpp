@@ -6,7 +6,7 @@
 #include <algorithm>
 
 
-int exec10_27_main()
+int main()
 {
     std::vector<std::string> vec({ "abcd", "abc", "abcd", "xyz", "xyz", "a" });
     std::sort(vec.begin(), vec.end()); //required this

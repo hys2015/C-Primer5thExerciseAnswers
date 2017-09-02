@@ -3,8 +3,14 @@
 #include <algorithm>
 #include <string>
 
-//define in "exec10_09.cpp"
-extern std::ostream& print_vec(std::ostream &os, const std::vector<std::string> &vec);
+std::ostream& print_vec(std::ostream &os, const std::vector<std::string> &vec)
+{
+    os << "\t **print_vec:**" << std::endl;
+    for (auto elm : vec) {
+        os << elm << std::endl;
+    }
+    return os;
+}
 
 bool isShorter(const std::string &lhs, const std::string &rhs)
 {
@@ -26,7 +32,7 @@ static void elimDups(std::vector<std::string> &vec)
     print_vec(std::cout, vec);
 }
 
-int exec10_11_main()
+int main()
 {
     std::vector<std::string> vec;
     std::string input;

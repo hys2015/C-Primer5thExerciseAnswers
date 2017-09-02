@@ -2,7 +2,7 @@
 #include <map>
 #include <string>
 
-int exec11_31_main()
+int main()
 {
     std::multimap<std::string, std::string> author_title;
     author_title.insert({ "JohnBrown", "First Class Of Life" });

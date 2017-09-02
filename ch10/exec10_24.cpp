@@ -11,7 +11,7 @@ bool check_size(const std::size_t sz, const std::string &spec)
     return sz > spec.size();
 }
 
-int exec10_24_main()
+int main()
 {
     std::cout << "your specific string: " << std::endl;
     std::string spec;

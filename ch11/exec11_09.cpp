@@ -4,7 +4,7 @@
 #include <sstream>
 #include <string>
 
-int exec11_09_main()
+int main()
 {
     std::map<std::string, std::list<std::size_t>> word_linenum;
     std::string line;

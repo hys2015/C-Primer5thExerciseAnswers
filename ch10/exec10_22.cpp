@@ -8,7 +8,7 @@ bool isShorter6(const std::string &str)
     return str.size() <= 6;
 }
 
-int exec10_22_main()
+int main()
 {
     std::vector<std::string> words;
     std::cout << "enter the words ^Z to end:";

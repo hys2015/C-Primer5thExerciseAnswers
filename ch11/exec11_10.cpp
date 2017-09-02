@@ -2,7 +2,7 @@
 #include <vector>
 #include <map>
 
-int exec11_10_main()
+int main()
 {
     // declared fine
     std::map<std::vector<int>::iterator, int> map1;

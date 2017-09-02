@@ -7,7 +7,7 @@ static bool compareIsbn(const Sales_data &lhs, const Sales_data &rhs)
     return (lhs.isbn() < rhs.isbn());
 }
 
-int exec11_11_main()
+int main()
 {
     // using F = int(int*, int);     // F is a function type
     // using PF = int(*)(int*, int); // PF is a pointer to funtion

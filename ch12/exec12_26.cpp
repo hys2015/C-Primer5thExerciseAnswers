@@ -6,7 +6,7 @@
 #include <memory>
 #include <iostream>
 
-int exec12_26_main()
+int main()
 {
     std::size_t n = 3;
     std::allocator<std::string> a;

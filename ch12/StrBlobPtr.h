@@ -1,7 +1,8 @@
 #ifndef _STRBLOBPTR_H_
 #define _STRBLOBPTR_H_
 
-#include "StrBlob.h"
+//#include "StrBlob.h"
+#include "../ch13/exec13_26.h"
 
 #include <vector>
 #include <memory>

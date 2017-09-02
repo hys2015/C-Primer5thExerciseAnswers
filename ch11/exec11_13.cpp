@@ -1,7 +1,7 @@
 #include <utility>
 #include <string>
 
-int exec11_13_main()
+int main()
 {
     std::string str("CppPrimer");
     int num = 1;

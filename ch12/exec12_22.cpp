@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-int exec12_22_main()
+int main()
 {
     const StrBlob cblob({ "C++", "Primer", "5th Edition" });
 

@@ -43,7 +43,7 @@ std::string concat_libstring(std::string &s1, std::string &s2)
     return std::string(s);
 }
 
-int exec12_23_main()
+int main()
 {
     char *sa = "abcdef";
     char *sb = "xyzzzz";

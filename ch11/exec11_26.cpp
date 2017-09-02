@@ -1,7 +1,7 @@
 #include <map>
 
 
-int exec11_26_main()
+int main()
 {
     std::map<int, float> map;
     std::map<int, float>::key_type idx;

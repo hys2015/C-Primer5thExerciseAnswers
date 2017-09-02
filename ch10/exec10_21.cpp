@@ -1,7 +1,7 @@
 #include <iostream>
 
 
-int exec10_21_main()
+int main()
 {
 	int caped = 10;
 	auto f = [&caped]()->bool {

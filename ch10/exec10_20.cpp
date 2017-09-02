@@ -3,7 +3,7 @@
 #include <string>
 #include <algorithm>
 
-int exec10_20_main()
+int main()
 {
 	std::vector<std::string> words;
 	std::cout << "enter the words ^Z to end:";

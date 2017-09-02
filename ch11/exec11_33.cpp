@@ -52,7 +52,7 @@ static void word_transform(std::ifstream &map_file, std::ifstream &input)
     }
 }
 
-int exec11_33_main()
+int main()
 {
 	//D:\GitForks\CppPrimer5thExerciseAnswers\ch11\exec11_33\input.txt
     std::ifstream rule_file("D:\\GitForks\\CppPrimer5thExerciseAnswers\\ch11\\exec11_33\\map_rules.txt");

@@ -3,7 +3,7 @@
 #include <iostream>
 
 
-int exec11_20_main()
+int main()
 {
     std::map<std::string, std::size_t> word_count;
     std::string word;

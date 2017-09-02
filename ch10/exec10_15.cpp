@@ -1,6 +1,6 @@
 #include <iostream>
 
-int exec10_15_main()
+int main()
 {
     int rhs = 10;
     auto f = [rhs](int lhs){return lhs + rhs; };

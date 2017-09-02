@@ -8,7 +8,7 @@ bool hasFiveOrMoreChars(const std::string &s)
     return s.size() < 5;
 }
 
-int exec10_13_main()
+int main()
 {
     std::vector<std::string> words;
     std::string input;

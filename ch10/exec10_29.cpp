@@ -5,7 +5,7 @@
 #include <iterator>
 #include <algorithm>
 
-int exec10_29_main()
+int main()
 {
     std::string path("E:\\GitHubForks\\c++Primer5th-demo\\ch10\\exec10_29.txt");
     std::ifstream fs(path);

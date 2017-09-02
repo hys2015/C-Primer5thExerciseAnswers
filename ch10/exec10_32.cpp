@@ -11,7 +11,7 @@ static bool compareIsbn(Sales_item &lhs, Sales_item &rhs)
     return lhs.isbn() < rhs.isbn();
 }
 
-int exec10_32_main()
+int main()
 {
     std::istream_iterator<Sales_item> in_it(std::cin), eof;
     std::vector<Sales_item> vec(in_it, eof);

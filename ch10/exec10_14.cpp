@@ -1,6 +1,6 @@
 #include <iostream>
 
-int exec10_14_main()
+int main()
 {
     auto sum = [](int a, int b){return (a + b); };
     std::cout << sum(1, 3) << std::endl;

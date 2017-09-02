@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <vector>
 
-int exec10_30_main()
+int main()
 {
     std::cout << "enter integers ctrl+z to end: " << std::endl;
     std::istream_iterator<int> in_it(std::cin), eof;

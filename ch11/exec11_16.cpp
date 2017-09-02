@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-int exec11_16_main()
+int main()
 {
     std::string value("7");
     std::map<int, std::string> map;

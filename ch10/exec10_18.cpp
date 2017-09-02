@@ -41,7 +41,7 @@ static void biggies(std::vector<std::string> &words,
     std::cout << std::endl;
 }
 
-int exec10_18_main()
+int main()
 {
     std::vector<std::string> words;
     std::vector<std::string>::size_type sz;

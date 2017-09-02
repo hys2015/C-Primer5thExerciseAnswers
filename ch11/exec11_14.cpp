@@ -4,7 +4,7 @@
 #include <string>
 #include <utility>
 
-int exec11_14_main()
+int main()
 {
     std::map<std::string, std::vector<std::pair<std::string, std::string>>> families;
     std::string name;

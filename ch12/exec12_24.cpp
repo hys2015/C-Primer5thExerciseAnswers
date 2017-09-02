@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-int exec12_24_main()
+int main()
 {
     int len;
     std::cout << "the length of string:";

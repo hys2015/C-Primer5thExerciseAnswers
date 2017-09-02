@@ -37,7 +37,7 @@ void Solution2(std::ifstream &ifs, std::ostream &ofs1, std::ostream &ofs2)
     std::cout << "SOLUTION 2" << std::endl;
 }
 
-int exec10_33_main()
+int main()
 {
     std::string path_in("E:\\GitHubForks\\c++Primer5th-demo\\ch10\\exec10_33_in.txt");
     std::string path_out_1("E:\\GitHubForks\\c++Primer5th-demo\\ch10\\exec10_33_out1.txt");

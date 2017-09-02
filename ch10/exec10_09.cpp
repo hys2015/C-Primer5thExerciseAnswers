@@ -26,7 +26,7 @@ void elimDups(std::vector<std::string> &vec)
     print_vec(std::cout, vec);
 }
 
-int exec10_09_main()
+int main()
 {
     std::vector<std::string> vec;
     std::string input;

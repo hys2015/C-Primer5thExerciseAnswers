@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <numeric>
 
-int exec10_05_main()
+int main()
 {
     std::vector<const char* > roster1({ "abc", "xyz" });
     std::vector<const char* > roster2({ "abc", "xyz" });

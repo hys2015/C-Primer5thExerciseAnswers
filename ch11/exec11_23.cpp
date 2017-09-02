@@ -3,7 +3,7 @@
 #include <map>
 #include <string>
 
-int exec11_23_main()
+int main()
 {
     std::multimap<std::string, std::vector<std::string>> families;
     std::string name;

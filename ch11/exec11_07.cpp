@@ -3,7 +3,7 @@
 #include <map>
 #include <string>
 
-int exec11_07_main()
+int main()
 {
     std::map<std::string, std::vector<std::string>> families;
     std::string name;

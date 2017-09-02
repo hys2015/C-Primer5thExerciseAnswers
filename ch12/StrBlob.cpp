@@ -1,4 +1,5 @@
 #include "StrBlob.h"
+#include "..\ch13\exec13_26.h"
 
 StrBlob::StrBlob() : data(std::make_shared<std::vector<std::string>>() ){ }
 StrBlob::StrBlob(std::initializer_list<std::string> il):

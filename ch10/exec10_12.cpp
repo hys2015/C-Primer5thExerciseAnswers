@@ -10,7 +10,7 @@ bool compareIsbn(Sales_data &lhs, Sales_data &rhs)
     return lhs.isbn() < rhs.isbn();
 }
 
-int exec10_12_main()
+int main()
 {
     std::vector<Sales_data> vec;
     Sales_data s1("isbn1"), s2("abcd"), s3("ciend");

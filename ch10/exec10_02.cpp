@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-int exec10_02_main()
+int main()
 {
     std::list<std::string> list;
     std::string in;

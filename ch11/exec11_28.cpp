@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 
-int exec11_28_main()
+int main()
 {
     std::map<std::string, std::vector<int>> map;
     map.insert(std::make_pair<std::string, std::vector<int>>("aa", std::vector<int>({ 0, 1 })));

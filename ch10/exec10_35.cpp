@@ -3,7 +3,7 @@
 #include <iterator>
 #include <vector>
 
-int exec10_35_main()
+int main()
 {
     std::istream_iterator<int> is_it(std::cin), eof;
     std::vector<int> vec(is_it, eof);

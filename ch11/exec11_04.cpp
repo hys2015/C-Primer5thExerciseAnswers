@@ -17,7 +17,7 @@ bool isLetter(const char c) {
     return c >= 'a' && c <= 'z';
 }
 
-int exec11_04_main()
+int main()
 {
     std::string input;
     std::map<std::string, std::size_t> words;

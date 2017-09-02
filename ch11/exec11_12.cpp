@@ -3,7 +3,7 @@
 #include <utility>
 #include <string>
 
-int exec11_12_main()
+int main()
 {
     std::vector<std::pair<std::string, int> > vec;
     std::string i_str;

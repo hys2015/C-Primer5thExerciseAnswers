@@ -4,7 +4,7 @@
 #include <list>
 #include <iostream>
 
-int exec10_37_main()
+int main()
 {
     std::vector<int> vec({ 1,2,3,4,5,6,7,8,9,10 });
     std::list<int> lst;
